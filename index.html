@@ -32,9 +32,14 @@
       <!-- VIDEO POPUP -->
       <div class="popup" data-popup="video">
         <div class="popup__inner video__inner">
-          <iframe id="video" width="100%" height="100%" src="https://www.youtube.com/watch?v=38YYI-Pbl0g"></iframe>
-          <!-- If you have Youtube video or any external video, use iframe above. Otherwise use video element below; -->
-          <!-- <video id="video" src="./path-to-video"></video> -->
+          <div style="width: 100%; height: 100%;">
+            <object width="100%" height="100%">
+              <param name="movie" value="https://www.youtube-nocookie.com/v/VM0oe-MtLpI?version=3&amp;hl=en_US"></param>
+              <param name="allowFullScreen" value="true"></param>
+              <param name="allowscriptaccess" value="always"></param>
+              <embed src="https://www.youtube-nocookie.com/v/VM0oe-MtLpI?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="100%" height="100%" allowscriptaccess="always" allowfullscreen="true"></embed>
+            </object>
+          </div>
         </div>
       </div>
       <header class="fixed-content-header">
