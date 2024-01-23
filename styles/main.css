@@ -59,7 +59,7 @@ ul {
 
 li {
   color: var(--secondaryColor);
-  font: 600 18px Roboto, sans-serif;
+  font: 600 16px Roboto, sans-serif;
   text-align: left;
 }
 li::before {
@@ -924,7 +924,11 @@ iframe {
     width: 100%;
   }
 
-  .small-text {
+  .content-section__textsmall-text {
+    font-size: 10px; /* Adjust the font size as needed */
+  }
+
+  .content-section[data-page="5"] .content-section__textsmall-text li {
     font-size: 12px; /* Adjust the font size as needed */
   }
 
