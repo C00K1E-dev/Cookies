@@ -998,6 +998,9 @@ iframe {
 
 /* Minimum device height; */
 @media only screen and (max-height: 450px) {
+  .menu-list__item {
+    font-size: 16px; /* Adjust the font size as needed */
+  }
   .content-services,
   .content-section__images,
   .content-portfolio__images {
