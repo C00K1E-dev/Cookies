@@ -543,6 +543,7 @@ iframe {
 
 .content-section.section--hidden .content-section__title,
 .content-section.section--hidden .content-section__text,
+.content-section.section--hidden .content-section__text5,
 .content-section.section--hidden .content-section__button,
 .content-section.section--hidden .content-section__image-holder,
 .content-section.section--hidden .content-section__buttons-holder,
@@ -553,6 +554,7 @@ iframe {
 
 .content-section.section--hidden-reverse .content-section__title,
 .content-section.section--hidden-reverse .content-section__text,
+.content-section.section--hidden-reverse .content-section__text5,
 .content-section.section--hidden-reverse .content-section__button,
 .content-section.section--hidden-reverse .content-section__image-holder,
 .content-section.section--hidden-reverse .content-section__buttons-holder,
