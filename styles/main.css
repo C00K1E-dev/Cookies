@@ -180,7 +180,7 @@ canvas {
 .menu-list__item {
   color: var(--secondaryColor);
   position: relative;
-  font: 900 40px Roboto, sans-serif;
+  font: 900 20px Roboto, sans-serif;
   letter-spacing: var(--letterSpacing);
   cursor: pointer;
   padding: 0 20px;
@@ -999,7 +999,7 @@ iframe {
 /* Minimum device height; */
 @media only screen and (max-height: 450px) {
   .menu-list__item {
-    font-size: 12px; /* Adjust the font size as needed */
+    font-size: 10px !important; /* Adjust the font size as needed */
   }
   .content-services,
   .content-section__images,
